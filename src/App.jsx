@@ -1,10 +1,8 @@
-import { useState } from 'react'
-
-
-
+import { useState } from 'react';
+import PedidoForm from './PedidoForm';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -28,8 +26,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <PedidoForm />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
